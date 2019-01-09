@@ -8,7 +8,6 @@
 class NetworkObject
 {
 public:
-	//from project 1,2
 	NetworkObject(int id);	//This constructor assigns an objectId to each created object
 	NetworkObject();		//Default constructor(assigns objectId to zero)
 	//~NetworkObject();
@@ -19,8 +18,6 @@ public:
 	void packets_peekFront();	//This method peeks at the front of the queue
 	void packets_peekBack();	//This method peeks at the back of the queue
 	
-
-	//For project 3
 	static int num_dropped;		//holds the total number of dropped packets
 	static int num_transmitted;
 	static float total_travel_time;
