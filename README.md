@@ -7,7 +7,7 @@ The FIFO queue data structure is used to make the project more realistic.
 
 
 ## Motivation(and my other related projects) ##
-interesting model of basic packet transmission for a high number of packets. With a more realistic(complex) network, we would have to first identify ideal paths(no loops).
+This project presents an interesting model of basic packet transmission for a high number of randomized packets. With a more realistic(complex) network, we would have to first identify ideal paths(no loops).
 To address this, we can model our network as a special multi(prev, next) link linked list. We would then run a more complex reduction/routing algorithm such as Dijkstra's routing algorithm
 to promote efficiency and prevent loops within the network.
 
