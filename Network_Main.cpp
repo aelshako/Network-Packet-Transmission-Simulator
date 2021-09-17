@@ -13,7 +13,7 @@ int main(){
 
 	srand(time(0));
 
-	int num_cycles = 100;		//EXTRA CREDIT:we loop over everything a large number of times(I chose 100) and display averages at end
+	int num_cycles = 100;		//Looping over everything a large number of times(I chose 100) and displaying averages at end
 	int total_packets = 0;
 	int total_nodes = 0;
 	int count = 0;
